@@ -1,0 +1,12 @@
+values:
+    a: "123"
+    b: "456"
+
+configs:
+    - input: "input_a"
+      output: "output_b"
+      enabled: True
+      mode: "file"
+      values:
+          a: "234"
+          c: "789"
